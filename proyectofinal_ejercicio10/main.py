@@ -1,30 +1,25 @@
-def elements(n, elements_array):
+def connected_parts(n, edges):
+    count = 0
+    visited = [False for i in range(n)]
     for i in range(n):
-        elements_array.append(i)
-    return elements_array
+        if visited[i] is not True:
+            check(i, visited, edges)
+            count += 1
+    return count
 
-def change_array(elementos, inner_index):
-    while True:
-        if elementos[inner_index] != inner_index:
-            inner_index = elementos[inner_index]
-        else:
-            break
-    return inner_index
 
-def count(edges, elementos, n):
-    for i in range(len(edges)):
-        index1 = change_array(elementos, edges[i][0])
-        index2 = change_array(elementos, edges[i][1])
-        if index2 != index1:
-            elementos[index2] = index1
-            n -= 1
-    return n
+def check(i, visited, edges):
+    if visited[i] is False:
+        visited[i] = True
+        for vertex in edges:
+            if i in vertex:
+                if i == vertex[0]:
+                    check(vertex[1], visited, edges)
+                else:
+                    check(vertex[0], visited, edges)
+    else:
+        return
+
 
 def respuesta_ejercicio10(edges, n):
-    elementos = []
-    elements(n, elementos)
-    return count(edges, elementos, n)
-
-edges = [[0,1],[1,2],[3,4],[2,0],[1,0],[2,1]]
-n = 5
-print(respuesta_ejercicio10(edges, n))
+    return connected_parts(n, edges)
