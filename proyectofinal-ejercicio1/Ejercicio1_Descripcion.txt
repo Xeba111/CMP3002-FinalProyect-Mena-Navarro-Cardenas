@@ -1,0 +1,5 @@
+En este ejercicio se buscaba remplazar un número dado en una función de segundo grado para encontrar el resultado de dicha función.
+La mejor aproximación que se me ocurrió para este problema fue partirlo en dos partes. Primero se aplicaban los números del array
+dado en la función y se guardaban las respuestas en una lista de Python. Después de hacer esto para todos los números del array, 
+se tiene que arreglar pues es requisito del problema. Para arreglar usé un Quick Sort, el cual es un algoritmo relativamente rápido. 
+En este caso se usó como estructura de datos una lista de Python sin modificación alguna.

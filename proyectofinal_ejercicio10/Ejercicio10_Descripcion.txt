@@ -1,0 +1,7 @@
+En este ejercicio se tenía que contar el número de partes conectadas dentro de un input que mostraba los edges de un grafo. 
+Mi manera de resolver esto fue sin ninguna Estructura como Hashmaps o diccionarios aunque soy conciente que también se puede hacer de este 
+método. Básicamente lo que hice fue crear una lista llena de False, una por cada nodo del grafo. A continuación, se aplica una 
+función a un índice (empezando desde el 0 hasta el último nodo) que chequea a qué otros nodos está conectado. Como es una función 
+recursiva, el chequeo se hará hasta que no pueda avanzar, lo que irá cambiando progresivamente el array de False en True. 
+Cuando ya no se pueda avanzar más, se añade un número al contador y después se repite el proceso. 
+La estructura de datos usada fue la lista pues nos permite mantener el array de visitados y el de input para poder ingresar los datos

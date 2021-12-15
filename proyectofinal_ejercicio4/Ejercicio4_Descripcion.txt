@@ -1,0 +1,4 @@
+En el ejercicio número 4 se usó una lista predeterminada de Python para resolver el problema. Lo que se quería lograr en este 
+ejercicio era dividir un número dado en partes enteras que puedan ser obtenidas en un dado normal [números del 1 al 6]. Para esto se
+usó el operador modulo para identificar los números enteros en los cuales se puede dividir este número más grande. 
+La lista sirve para guardar la información de este algoritmo que es recursivo. 
