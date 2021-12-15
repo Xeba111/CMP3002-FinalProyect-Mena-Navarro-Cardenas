@@ -19,7 +19,6 @@ def check_subsequence(array):
             return False
     return True
 
-def respuesta_ejercicio2(array):
+def respuesta_ejercicio7(array):
     array_subsequences(array, 0, [])
     return contador
-

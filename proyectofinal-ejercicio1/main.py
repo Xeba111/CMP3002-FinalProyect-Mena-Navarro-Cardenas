@@ -44,10 +44,10 @@ def respuesta_ejercicio1(array, a, b, c):
     quick_sort(0, len(array)-1, array)
     return array
 
-nums = [-4, -2, 2, 4]
-a = 1
-b = 3
-c = 5
+nums = [-10, -6, -2, -1, 0]
+a = 4
+b = 5
+c = 7
 print(nums)
 respuesta_ejercicio1(nums, a, b, c)
 print(nums)

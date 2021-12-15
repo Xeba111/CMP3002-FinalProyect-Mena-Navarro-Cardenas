@@ -34,7 +34,7 @@ def respuesta_ejercicio4(rolls, mean, n):
     int_answer = [int(i) for i in answer]
     return int_answer
 
-rolls = [1,5,6]
-mean = 3
-n = 4
-respuesta_ejercicio4(rolls, mean, n)
+rolls = [6,6,6,6,6]
+mean = 4
+n = 8
+print(respuesta_ejercicio4(rolls, mean, n))
