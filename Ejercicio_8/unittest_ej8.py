@@ -1,6 +1,6 @@
 import unittest
 from Ejercicio_8 import Ejercicio8
-
+#ej8
 
 class MyTestCase(unittest.TestCase):
     def test1(self):
@@ -20,8 +20,10 @@ class MyTestCase(unittest.TestCase):
         self.assertTrue(result)
 
     def test5(self):
-        result = Ejercicio8.minInterval([[1, 2], [2, 4], [4, 6], [7, 10]], [2, 6, 7, 2])
+        result = Ejercicio8.minInterval([[1, 2], [2, 4], [4, 6], [7, 10]], [2, 4, 7, 2])
         self.assertTrue(result)
+
+
 
 
 if __name__ == '__main__':
