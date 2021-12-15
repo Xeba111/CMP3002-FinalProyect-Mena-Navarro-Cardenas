@@ -1,0 +1,7 @@
+En este ejercicio se buscaba encontrar las subsecuencias matemáticas dentro de un array dado de enteros. Para resolver el problema lo 
+partí en dos partes. Primero un algoritmo que busca, uno a uno si un subarray dado cumple con las características de una subsecuencia y 
+después otro que aplica el algoritmo de manera recursiva hasta recorrer todas las opciones y se hace cargo del contador global para ver 
+cuantas combinaciones que son subsecuencias hay. Este algoritmo revisa los casos uno a uno para cada combinación y chequea número por 
+número si se cumple o no por lo que es un algoritmo relativamente lento. 
+Como estructura de datos se usó la lista de Python, la cual me sirvió para poder dividir el array grande de input en arrays más pequeños
+y posteriormente aplicar el algoritmo de chequeo.
