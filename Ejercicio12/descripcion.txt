@@ -1,0 +1,5 @@
+El razonamiento para este ejercicio es el siguiente:
+Partimos de la clase TreeNode para la definicion de nuestro arbol. Despues con el uso de un diccionario ponemos
+a la raiz con un valor de 0 i a su izquierda vamos restando este valor, en cambio a la derecha vamos sumando.
+Con esto definimos las columnas y vamos guardando los valores en su respectivo sitio. Despues creamos un arreglo
+donde se guardaran las columnas con sus respectivos valores ordenadamente.

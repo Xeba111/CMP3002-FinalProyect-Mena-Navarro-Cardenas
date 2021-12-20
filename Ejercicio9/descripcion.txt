@@ -1,0 +1,4 @@
+El razonamiento usado en este ejercicio es el siguiente: ya que los nodos estan circularmente, esto significa que
+el ultimo nodo señala al primer nodo, una vez esto con un loop buscamos en nodo que señana al primer nodo,
+cuando lo encontramos introducimos el nuevo nodo haciendo que el anterior ultimo nodo señale al nuevo y el nuevo nodo señale
+al primer nodo.
