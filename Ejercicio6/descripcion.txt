@@ -1,0 +1,5 @@
+El razonamiento usado para resolver este ejercicio es el siguiente:
+Al buscar como resultado solo la cantidad de valores impares, podemos usar un doble loop, el primero nos indica
+nuestro primer valor, en cambio en el segundo loop vamos a ir sumando nuestro valor con el siguiente y compararlo
+para ver si es impar, si este es impar, aumentaremos en 1 el resultado (esto a que solo buscamos cuantos valores
+impares tenemos). Al final ya que se recorrera en su totalidad, se mostrara el resultado querido

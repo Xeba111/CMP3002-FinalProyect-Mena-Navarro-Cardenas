@@ -1,0 +1,2 @@
+En este ejercicio utilice set() para guardar los valores que ya se han visitado, ya que al haber solo un valor
+repetido en el array, al momento que me encontramos con otro valor igual, se que ese es el valor que estamos buscando
