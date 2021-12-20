@@ -19,7 +19,7 @@ class MyTestCase(unittest.TestCase):
         result = Ejercicio8.minInterval([[2, 4], [3, 5], [1, 3], [10, 15]], [2, 15, 5, 2])
         self.assertEqual(result,[3, -1, -1, 3])
 
-    def test5(self):
+    def test_5(self):
         result = Ejercicio8.minInterval([[1, 2], [2, 4], [4, 6], [7, 10]], [2, 4, 7, 2])
         self.assertEqual(result,[2,-1,-1,2])
 
